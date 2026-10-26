@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.helpforsupport/caisey",
+  "title": "Caisey",
+  "description": "Troubleshoot enrolled client PCs from your AI client, with human approval and an audit trail.",
+  "version": "1.0.0",
+  "websiteUrl": "https://helpforsupport.com/docs/remote-mcp",
+  "icons": [
+    {
+      "src": "https://helpforsupport.com/caisey-app-icon-light-1024.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "1024x1024"
+      ]
+    },
+    {
+      "src": "https://helpforsupport.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://helpforsupport.com/mcp"
+    }
+  ]
+}
