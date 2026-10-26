@@ -1,0 +1,14 @@
+{
+  "name": "caisey",
+  "description": "Troubleshoot enrolled client PCs from your AI client, with human approval and an audit trail.",
+  "version": "1.0.0",
+  "author": { "name": "Zelek Tech", "email": "judah@zelek.tech" },
+  "homepage": "https://helpforsupport.com/docs/remote-mcp",
+  "repository": "https://github.com/ZelekTech/caisey-mcp",
+  "license": "MIT",
+  "keywords": ["msp", "it-support", "remote-support", "helpdesk", "troubleshooting", "approvals", "audit-log", "oauth"],
+  "logo": "caisey-icon-512.png",
+  "mcpServers": {
+    "caisey": { "url": "https://helpforsupport.com/mcp" }
+  }
+}
