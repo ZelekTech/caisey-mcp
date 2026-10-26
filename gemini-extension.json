@@ -1,0 +1,11 @@
+{
+  "name": "caisey",
+  "version": "1.0.0",
+  "description": "Troubleshoot enrolled client PCs from Gemini CLI, with human approval and an audit trail.",
+  "mcpServers": {
+    "caisey": {
+      "url": "https://helpforsupport.com/mcp",
+      "type": "http"
+    }
+  }
+}
